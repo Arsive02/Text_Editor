@@ -5,7 +5,7 @@
 ### 1.1 Installing C Compiler
 <pre>
 Compiling with Make:
--   <span style="background-color: blue">cc kilo.c -o kilo</span> this will produce an executable named kilo. -o stands for “output”, and specifies that the output executable should be named kilo.
+-   ```cc kilo.c -o kilo``` this will produce an executable named kilo. -o stands for “output”, and specifies that the output executable should be named kilo.
 -   To run kilo, type <span style="background-color: blue">./kilo</span> in your shell and press Enter. The program doesn’t print any output, but you can check its exit status (the value main() returns) by running echo $?, which should print 0.
 -   run <span style="background-color: blue">make</span> , and you should see it compile
 </pre>
